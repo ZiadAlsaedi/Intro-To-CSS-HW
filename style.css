@@ -35,8 +35,9 @@
 }
 
 .imgR:hover {
-    transform: rotate(180deg);
-  }
+    transform: rotate(360deg);
+    transition: transform 3.5s; 
+ }
 
 .pargraph{
     text-align: left;
