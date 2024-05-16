@@ -1,0 +1,69 @@
+
+*{
+    font-family: "Quicksand";
+}
+.back{
+    background-image: url("https://stone-horn-a78.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F989539c7-7a6d-4611-9778-eb2623dec992%2F0ba5b70c-e4de-4e4b-87f9-3f873e0e9849%2FsoupHedar.jpg?table=block&id=6aa2b88f-5ac7-4843-8b09-4b6d0e35b988&spaceId=989539c7-7a6d-4611-9778-eb2623dec992&width=2000&userId=&cache=v2");
+    width: 100%;
+    height: 110vh;
+    background-size: 100% 500px;
+        background-repeat: no-repeat;
+        position: relative;
+        background-clip:content-box;  
+
+
+}
+.title{
+    position: absolute;
+    top: 32%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    z-index: 10;
+    width: 28rem;
+}
+
+.soup{
+    position: absolute;
+    bottom: -40%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 28rem;
+
+}
+
+.imgR:hover {
+    transform: rotate(180deg);
+  }
+
+.pargraph{
+    text-align: left;
+    width: 35rem;
+    margin-left: 25%;
+}
+
+.imgP{
+    margin-left: 39%;
+}
+
+.shape{
+    background-color:khaki;
+    width: 20%;
+    border-radius: 40%;
+    text-align: center;
+}
+
+.textDI{
+    margin-left: 25%;
+    width: 34rem;
+}
+
+.rotate180 {
+    transition: transform 0.5s ease;
+}
+
+.rotate180:hover {
+    transform: rotate(180deg);
+}
